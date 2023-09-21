@@ -9,7 +9,7 @@ const footerStyles = {
     color: 'white',
     height: '100px',
     width: '100%',
-    position: 'absolute',
+    position: 'fixed',
     bottom: '0'
 }
 
@@ -38,7 +38,3 @@ const FooterS = () => {
 }
 
 export default FooterS
-
-/*
-
-*/
