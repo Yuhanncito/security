@@ -11,7 +11,7 @@ const About = () => {
   <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '40%', border: '1px solid black', padding: '20px', backgroundColor: '#00B0F0', borderRadius: '10px'}}>
     <img src={require('../imgs/yu.jpg')} alt="placeholder" style={{width: '200px', height: '200px', borderRadius: '50%', boxShadow: '5px 5px 5px grey'}} />
     <p style={{fontSize: '1.5rem', fontWeight: 'bold', marginTop: '20px', color: 'white', textShadow: '2px 2px 2px grey'}}>Gizé Yuhann Martinez Espinosa</p>
-    <p style={{fontSize: '1.3rem', color: 'white', textShadow: '2px 2px 2px grey'}}>20211045uthh.edu.mx</p>
+    <p style={{fontSize: '1.3rem', color: 'white', textShadow: '2px 2px 2px grey'}}>20211045@uthh.edu.mx</p>
   </div>
 </div>
   );
