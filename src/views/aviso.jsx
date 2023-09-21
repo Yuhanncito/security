@@ -42,14 +42,6 @@ const AvisoPrivacidad = () => {
             <p>Para conocer mayor información sobre los términos y condiciones en que serán tratados sus datos personales, como los terceros con quienes compartimos su información personal y la forma en que podrá ejercer sus derechos ARCO, puede consultar el aviso de privacidad integral en:</p>
             <p>Comunicación directa, sitios web, puestos de atención al cliente</p>
         </div>
-        <div style={{fontSize: '1.1rem', marginBottom: '1rem', display: 'flex', justifyContent: 'center'}}>
-
-            <a href="/views/AvisoPrivacidad.pdf" download>
-                <button style={{fontSize: '1.1rem', backgroundColor: 'green', color: 'white', padding: '0.5rem', borderRadius: '0.5rem', border: 'none', cursor: 'pointer'}}>
-                    Descargar Aviso de Privacidad
-                </button>
-            </a>
-        </div>
         </div>
 
         
