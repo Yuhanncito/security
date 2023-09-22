@@ -1,9 +1,4 @@
-import { saveAs } from 'file-saver';
 const AvisoPrivacidad = () => {
-
-    const downloadPdf = () => {
-        saveAs('/views/AvisoPrivacidad.pdf', 'AvisoPrivacidad.pdf');
-    };
 
     return (
         <div style={{marginLeft: '5%', marginRight: '5%'}}>
