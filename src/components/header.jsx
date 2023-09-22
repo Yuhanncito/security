@@ -32,7 +32,10 @@ const headerStyles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '68px',
-    backgroundColor: '#0077b6'
+    backgroundColor: '#0077b6',
+    position: 'sticky',
+    top: '0',
+    zIndex: '1'
 }
 
 
@@ -48,6 +51,7 @@ const container = {
 
 const Headers = () => {
     return (
+        <>
         <header style={headerStyles}>
             <div style={container} className='container_Footer'>
                 <Button href="/" className="hover" style={linkStyles}>Inicio</Button>
@@ -57,9 +61,11 @@ const Headers = () => {
                 <Button href="/about" className="hover" style={linkStyles}>Acerca de</Button>
             </div>
         </header>
-        
+        <div style={{height: '68px'}}></div>
+        </>
     )
 }
 
 export default Headers
+
 
