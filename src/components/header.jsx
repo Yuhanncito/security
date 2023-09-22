@@ -33,7 +33,7 @@ const container = {
 const Headers = () => {
     return (
         <header style={headerStyles}>
-            <div style={{background:'red'}} className='container_Footer'>
+            <div style={container} className='container_Footer'>
                 <a href="/" className="hover" style={linkStyles}>Inicio</a>
             </div>
             <div style={container} className='container_Footer'>
