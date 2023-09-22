@@ -29,8 +29,8 @@ root.render(
   <React.StrictMode>
     <div>
       <Headers />
-      <FooterS />
       <RouterProvider router={router} />
+      <FooterS />
     </div>
   </React.StrictMode>
 );

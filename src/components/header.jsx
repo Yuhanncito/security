@@ -1,12 +1,18 @@
 import React from 'react'
 
-const headerStyles = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '68px',
-    backgroundColor: '#0077b6'
-}
+import styled from 'styled-components';
+
+
+const Button = styled.a`
+  color: white;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 10px;
+  &:hover {
+    background-color: rgb(3 79 119);
+    color: #a6a6a6;
+  }
+`;
 
 const linkStyles = {
     textDecoration: 'none',
@@ -21,6 +27,16 @@ const linkStyles = {
     borderRadius:'10px'
 }
 
+const headerStyles = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '68px',
+    backgroundColor: '#0077b6'
+}
+
+
+
 const container = {
     marginRight: '20px',
     width: '17%',
@@ -34,10 +50,11 @@ const Headers = () => {
     return (
         <header style={headerStyles}>
             <div style={container} className='container_Footer'>
-                <a href="/" className="hover" style={linkStyles}>Inicio</a>
+                <Button href="/" className="hover" style={linkStyles}>Inicio</Button>
             </div>
+
             <div style={container} className='container_Footer'>
-                <a href="/about" className="hover" style={linkStyles}>Acerca de</a>
+                <Button href="/about" className="hover" style={linkStyles}>Acerca de</Button>
             </div>
         </header>
         

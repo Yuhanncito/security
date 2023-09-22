@@ -1,19 +1,38 @@
 import React from 'react';
 import './component.css';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
+import styled from 'styled-components';
+
+
+const Button = styled.a`
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 10px;
+  &:hover {
+    background-color: #2c2c2c;
+    color: #a6a6a6;
+  }
+`;
 
 const FooterS = () => {
+
     return (
-        <footer style={{backgroundColor: 'black', color: 'white', height: '100px', width: '100%', position: 'fixed', bottom: '0'}}>
-            <Row className='cositas' xs={2} md={2}>
+        <>
+            <div style={{height: '100px', width: '100%'}}></div>
+            <footer style={{backgroundColor: 'black', color: 'white', height: '100px', width: '100%', position: 'fixed', bottom: '0'}}>
+                <Row className='cositas' xs={2} md={2}>
                 <Col style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <a className='footer_link' style={footerLink} href='/aviso_de_privacidad' >Aviso de Privacidad</a>
+                    <Button className='footer_link' style={footerLink} href='/aviso_de_privacidad' >Aviso de Privacidad</Button>
                 </Col>
                 <Col style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <a href='about' style={footerLink} className='footer_link'>Sobre Nostros</a>
+                    <Button href='about' style={footerLink} className='footer_link'>Sobre Nostros</Button>
                 </Col>
             </Row>
-        </footer>
+            
+            </footer>
+        </>
     )
 }
 
@@ -27,9 +46,8 @@ const footerLink = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius:'10px'
+        borderRadius:'10px',
+       
     }
 
 export default FooterS;
-
-
