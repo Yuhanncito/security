@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Row style={{justifyContent: 'space-between', width: '80%', margin: 'auto', marginTop: '5%', border: '1px solid black', padding: '20px', boxShadow: '5px 5px 5px grey', borderRadius: '10px'}}>
+    <Row style={{justifyContent: 'space-between', width: '80%', margin: 'auto' ,marginBottom:'50px',  border: '1px solid black', padding: '20px', boxShadow: '5px 5px 5px grey', borderRadius: '10px'}}>
       <Col xs={12} md={6} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', border: '1px solid black', padding: '20px', backgroundColor: '#0072C6', borderRadius: '10px'}}>
         <Image src={require('../imgs/gera.jpg')} alt="placeholder" style={{width: '200px', height: '200px', borderRadius: '50%', boxShadow: '5px 5px 5px grey'}} />
         <p style={{fontSize: '1.5rem', fontWeight: 'bold', marginTop: '20px', color: 'white', textShadow: '2px 2px 2px grey'}}>Gerardo Olivares Aguilar</p>

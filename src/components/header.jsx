@@ -35,7 +35,8 @@ const headerStyles = {
     backgroundColor: '#0077b6',
     position: 'sticky',
     top: '0',
-    zIndex: '1'
+    zIndex: '1',
+    boxShadow: '0px 5px 5px grey'
 }
 
 
@@ -61,11 +62,9 @@ const Headers = () => {
                 <Button href="/about" className="hover" style={linkStyles}>Acerca de</Button>
             </div>
         </header>
-        <div style={{height: '68px'}}></div>
+        <div style={{height: '20px'}}></div>
         </>
     )
 }
 
 export default Headers
-
-

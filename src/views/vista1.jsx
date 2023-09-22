@@ -23,7 +23,7 @@ const Vista1 = () => {
     height:'auto',
     width:'60%',
     maxWidth:'60%',
-    padding: '10px',
+    padding: '30px',
     backgroundColor: '#f5f5f5',
     boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.2)',
   };
@@ -58,7 +58,7 @@ const Vista1 = () => {
         <Row style={{marginTop: '20px'}}>
             <Col style={{...sectionStyles, ...mediaQueryStyles['@media (max-width: 768px)'].sectionStyles}}>
                 <div style={{...sectionTitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].sectionTitleStyles}}>
-                    <h1 style={{...titleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].titleStyles}}>Problemática</h1>
+                    <h1 style={{...titleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].titleStyles, textAlign: 'center'}}>Problemática</h1>
                     <p style={{...subtitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].subtitleStyles}}>La ausencia de un sistema centralizado para registrar y priorizar las tareas pendientes ha provocado una desorganización generalizada en la empresa. Con frecuencia, los empleados desconocen cuáles son las tareas más urgentes o importantes, lo que resulta en una asignación ineficiente de recursos y tiempo.</p>
                     <p style={{...subtitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].subtitleStyles}}>La falta de un sistema de gestión de tareas ha tenido un impacto negativo en la capacidad para llevar a cabo las tareas de manera eficaz. No disponer de un orden claro sobre quién debe realizar cada tarea y en qué plazo conduce a una falta de dirección y coordinación en las actividades laborales.</p>
                 </div>
@@ -68,7 +68,7 @@ const Vista1 = () => {
         <Row>
             <Col style={{...sectionStyles, ...mediaQueryStyles['@media (max-width: 768px)'].sectionStyles}}>
                 <div style={{...sectionTitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].sectionTitleStyles}}>
-                    <h1 style={{...titleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].titleStyles}}>Project's Manager Gan</h1>
+                    <h1 style={{...titleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].titleStyles, textAlign: 'center'}}>Project's Manager Gan</h1>
                     <p style={{...subtitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].subtitleStyles}}>Para abordar esta problemática, es importante implementar un sistema de gestión de tareas eficaz. Este sistema debe ser capaz de:</p>
                     <ul style={{...subtitleStyles, ...mediaQueryStyles['@media (max-width: 768px)'].subtitleStyles}}>
                         <li>Registrar y priorizar tareas pendientes.</li>
