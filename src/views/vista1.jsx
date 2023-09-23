@@ -21,8 +21,8 @@ const Vista1 = () => {
   };
   const sectionTitleStyles = {
     height:'auto',
-    width:'60%',
-    maxWidth:'60%',
+    width:'100%',
+    maxWidth:'70%',
     padding: '30px',
     backgroundColor: '#f5f5f5',
     boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.2)',

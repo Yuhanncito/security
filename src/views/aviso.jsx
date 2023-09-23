@@ -57,6 +57,9 @@ const AvisoPrivacidad = () => {
                 <p style={{textAlign: 'justify'}}>El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o actualizaciones al presente aviso de privacidad es el siguiente:</p>
                 <p style={{textAlign: 'justify'}}>correo electrónico</p>
             </div>
+            <div style={{display:'flex',justifyContent: 'flex-end'}}>
+                <p>Última actualización: 20/09/2023</p>
+            </div>
         </Container>
 )}
 
