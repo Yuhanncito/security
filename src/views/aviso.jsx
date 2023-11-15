@@ -6,7 +6,7 @@ const AvisoPrivacidad = () => {
     };
 
     return (
-        <div style={{marginLeft: '5%', marginRight: '5%'}}>
+                <div style={{marginLeft: '5%', marginRight: '5%'}}>
         <div style={{fontSize: '1.2rem', fontWeight: 'bold', textAlign: 'center', margin: '2rem'}}>
             <p>Aviso de privacidad</p>
         </div>
@@ -43,8 +43,6 @@ const AvisoPrivacidad = () => {
             <p>Comunicación directa, sitios web, puestos de atención al cliente</p>
         </div>
         </div>
-
-        
     );
 };
 
