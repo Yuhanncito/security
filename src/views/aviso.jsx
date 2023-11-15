@@ -6,7 +6,7 @@ const AvisoPrivacidad = () => {
     };
 
     return (
-                <div>
+        <div>
 <div style={{margin: '2rem'}}>
     <h1>AVISO DE PRIVACIDAD</h1>
     <p>Administradora de Comercios y Franquicias , mejor conocido como Administradora de Comercios y Franquicias , con domicilio en calle Rayón Oriente No. 303-8 Plaza Robert, colonia Centro, ciudad México, municipio o delegación Tulancingo de Bravo, c.p. 43600, en la entidad de Hidalgo, país México , y portal de internet l.aguilar@gruporoma.com , es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:</p>
